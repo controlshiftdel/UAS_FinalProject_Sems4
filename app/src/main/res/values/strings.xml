@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Aware</string>
+    <string name="hello">Hello, </string>
+    <string name="profile">Profile</string>
+    <string name="logout">Logout</string>
+    <string name="title">Registrasi</string>
+    <string name="Submit">Submit</string>
+    <string name="create">List Your Duties !</string>
+    <string name="update">Update News</string>
+    <string name="btn_update">Update</string>
+</resources>

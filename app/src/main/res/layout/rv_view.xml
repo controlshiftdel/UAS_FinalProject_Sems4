@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="25dp"
+    android:padding="15dp">
+    
+
+    <TextView
+        android:id="@+id/title_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:text="Title"/>
+
+    <TextView
+        android:id="@+id/body_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/title_list"/>
+
+
+    <TextView
+        android:id="@+id/rp_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rp"
+        android:textSize="15dp"
+        android:layout_below="@+id/title_list"/>
+
+    <TextView
+        android:id="@+id/date_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:layout_alignParentEnd="true"/>
+
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="update"
+        android:textSize="10sp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/date_list"
+        android:layout_marginTop="10dp"
+        android:textColor="#000000"
+        android:background="@drawable/rounded_bg"/>
+
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="DELETE"
+        android:textSize="10sp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/btn_update"
+        android:layout_marginTop="10dp"
+        android:textColor="#000000"
+        android:background="@drawable/rounded_bg"/>
+
+</RelativeLayout>
